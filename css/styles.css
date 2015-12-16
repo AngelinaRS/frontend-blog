@@ -1,0 +1,57 @@
+
+.b {
+	height: 40px;
+	width: 100%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.cb {
+	display: inline-block;
+	color: gray;
+	font-size: 20px;
+	font-family: Arial;
+	width: 90%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.home {
+	display: inline-block;
+	font-size: 15px;
+	color: gray;
+	margin-right: 20px;
+}
+
+.search {
+	font-size: 15px;
+	color: gray;
+	margin-right: 20px;
+}
+
+.title {
+	height: 120px;
+	width: 100%;
+	background-color: #f6f6f6;
+	border-top: 1px solid #DCDCDC;
+}
+
+.titlecb {
+	font-size: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+.description {
+	font-size: 20px;
+	font-family: Arial;
+	margin-left: 20%;
+
+}
