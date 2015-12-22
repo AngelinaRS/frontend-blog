@@ -1,4 +1,8 @@
 
+body {
+	margin-bottom: 1%;
+}
+
 .b {
 	height: 40px;
 	width: 100%;
@@ -29,10 +33,15 @@
 	margin-right: 20px;
 }
 
-.search {
+#search {
 	font-size: 15px;
 	color: gray;
 	margin-right: 20px;
+}
+
+#input {
+	display: none;
+	position: relative;
 }
 
 .title {
@@ -46,12 +55,72 @@
 	font-size: 50px;
 	font-family: Arial;
 	font-weight: bold;
+}
+
+.left-margin {
 	margin-left: 20%;
+}
+
+.right-margin {
+	margin-right: 20%;
 }
 
 .description {
 	font-size: 20px;
 	font-family: Arial;
 	margin-left: 20%;
+}
 
+.save-posts {
+	margin-top: 3%;
+}
+
+.posts {
+	font-size: 43px;
+	font-family: Arial;
+	color: #0080FF;
+}
+
+.description-post {
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #0080FF;
+}
+
+.by {
+	font-family: Arial;
+}
+
+span {
+	color: #0080FF;
+}
+
+.hide {
+	display: none;
+}
+
+#older {
+	color: #0080FF;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#newer {
+	color: #0080FF;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#buttoms {
+	margin-top: 3%;
+	display: block;
+}
+
+#copyright {
+	clear: both;
+	position: absolute;
+	bottom: 0 !important;
 }
