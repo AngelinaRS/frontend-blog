@@ -20,6 +20,7 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 	<!-- Custom styles for this template -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<script type='text/javascript' src='js/script.js'></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
 
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,65 +37,70 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 	<div class="b">
 		<div class="cb left">Cognits Blog</div>
 		<div class="home">Home</div>
-		<div class="right" id="search">Search
-		</div>
+		<div class="right" id="search">Search</div>
+
 		<div id="input" class="right">
-			<form action="" method="" class="right">
-				<input placeholder="Search...">
-				<button id="searching">Search</button>
+			<form class="right">
+				<input name="searcher" id="searcher" type="text" placeholder="Search..."/>
 				<button id="x">X</button>
 			</form>
 		</div>
 	</div>
-	<div class="title">
-		<div class="titlecb left-margin">Cognits Blog</div>
-		<div class="description left-margin">The project to learn to use HTML, CSS and Javascript</div>
+
+	<!-- Here generate the posts -->
+
+	<div id="list"> <!--this will help to search -->
+		<div class="title">
+			<div class="titlecb left-margin">Cognits Blog</div>
+			<div class="description left-margin">The project to learn to use HTML, CSS and Javascript</div>
+		</div>
+
+		<div class="save-posts" id="show">
+			<div class="posts left-margin">Man must explore, and this is exploration at its greatest</div>
+			<div class="description-post left-margin">Problems look mighty small from 150 miles up</div>
+			<div class="by left-margin">Posted by 
+				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+		</div>
+
+		<div class="save-posts" id="show2">
+			<div class="posts left-margin">HTML</div>
+			<div class="description-post left-margin">HyperText Markup Language</div>
+			<div class="by left-margin">Posted by 
+				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+		</div>
+
+		<div class="save-posts hide" id="hide">
+			<div class="posts left-margin">CSS</div>
+			<div class="description-post left-margin">Cascading Style Sheets</div>
+			<div class="by left-margin">Posted by 
+				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+		</div>
+
+		<div class="save-posts hide" id="hide2">
+			<div class="posts left-margin">Success Beyond Success</div>
+			<div class="description-post left-margin">Do not stay with what you achieve, always looking for more</div>
+			<div class="by left-margin">Posted by 
+				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+		</div>
+
+		<div id="buttoms">
+			<button id="older" class="right right-margin">Older Posts → </button>
+			<button id="newer" class="left left-margin hide">Newer Posts → </button>
+		</div>
+
+		<div>
+			<div class="left-margin" id="copyright">Copyrigth © Your Website 2015</div>
+		</div>
+
 	</div>
 
-	<div class="save-posts" id="show">
-		<div class="posts left-margin">Man must explore, and this is exploration at its greatest</div>
-		<div class="description-post left-margin">Problems look mighty small from 150 miles up</div>
-		<div class="by left-margin">Posted by 
-			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
-	</div>
 
-	<div class="save-posts" id="show2">
-		<div class="posts left-margin">HTML</div>
-		<div class="description-post left-margin">HyperText Markup Language</div>
-		<div class="by left-margin">Posted by 
-			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
-	</div>
-
-	<div class="save-posts hide" id="hide">
-		<div class="posts left-margin">CSS</div>
-		<div class="description-post left-margin">Cascading Style Sheets</div>
-		<div class="by left-margin">Posted by 
-			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
-	</div>
-
-	<div class="save-posts hide" id="hide2">
-		<div class="posts left-margin">Success Beyond Success</div>
-		<div class="description-post left-margin">Do not stay with what you achieve, always looking for more</div>
-		<div class="by left-margin">Posted by 
-			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
-	</div>
-
-	<div id="buttoms">
-		<button id="older" class="right right-margin">Older Posts → </button>
-		<button id="newer" class="left left-margin hide">Newer Posts → </button>
-	</div>
-
-	<div>
-		<div class="left-margin" id="copyright">Copyrigth © Your Website 2015</div>
-	</div>
-
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/libs/jquery-2.1.1.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/libs/bootstrap.js"></script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/libs/jquery-2.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/libs/bootstrap.js"></script>
 
   </body>
 </html>
