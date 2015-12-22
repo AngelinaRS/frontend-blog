@@ -5,48 +5,96 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 <!DOCTYPE html>
 <!-- saved from url=(0039)http://getbootstrap.com/examples/blog/# -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Cognits Blog</title>
+	<title>Cognits Blog</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/libs/bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/libs/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!-- Custom styles for this template -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script type='text/javascript' src='js/script.js'></script>
 
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 
   <body>
 
-    <div class="posts"></div>
-    <div class="b">
-        <div class="cb left">Cognits Blog</div>
-        <div class="home">Home</div>
-        <div class="right search">Search</div>
-    </div>
-    <div class="title">
-        <div class="titlecb">Cognits Blog</div>
-        <div class="description">The project to learn to use HTML, CSS and Javascript</div>
-    </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/libs/jquery-2.1.1.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/libs/bootstrap.js"></script>
+	<!--<div class="posts"></div> -->
+	<div class="b">
+		<div class="cb left">Cognits Blog</div>
+		<div class="home">Home</div>
+		<div class="right" id="search">Search
+		</div>
+		<div id="input" class="right">
+			<form action="" method="" class="right">
+				<input placeholder="Search...">
+				<button id="searching">Search</button>
+				<button id="x">X</button>
+			</form>
+		</div>
+	</div>
+	<div class="title">
+		<div class="titlecb left-margin">Cognits Blog</div>
+		<div class="description left-margin">The project to learn to use HTML, CSS and Javascript</div>
+	</div>
+
+	<div class="save-posts" id="show">
+		<div class="posts left-margin">Man must explore, and this is exploration at its greatest</div>
+		<div class="description-post left-margin">Problems look mighty small from 150 miles up</div>
+		<div class="by left-margin">Posted by 
+			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+	</div>
+
+	<div class="save-posts" id="show2">
+		<div class="posts left-margin">HTML</div>
+		<div class="description-post left-margin">HyperText Markup Language</div>
+		<div class="by left-margin">Posted by 
+			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+	</div>
+
+	<div class="save-posts hide" id="hide">
+		<div class="posts left-margin">CSS</div>
+		<div class="description-post left-margin">Cascading Style Sheets</div>
+		<div class="by left-margin">Posted by 
+			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+	</div>
+
+	<div class="save-posts hide" id="hide2">
+		<div class="posts left-margin">Success Beyond Success</div>
+		<div class="description-post left-margin">Do not stay with what you achieve, always looking for more</div>
+		<div class="by left-margin">Posted by 
+			<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+	</div>
+
+	<div id="buttoms">
+		<button id="older" class="right right-margin">Older Posts → </button>
+		<button id="newer" class="left left-margin hide">Newer Posts → </button>
+	</div>
+
+	<div>
+		<div class="left-margin" id="copyright">Copyrigth © Your Website 2015</div>
+	</div>
+
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/libs/jquery-2.1.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/libs/bootstrap.js"></script>
 
   </body>
 </html>
