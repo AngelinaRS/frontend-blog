@@ -69,6 +69,10 @@
 	margin-right: 20%;
 }
 
+.right-margin-5 {
+	margin-right: 5%;
+}
+
 .description {
 	font-size: 20px;
 	font-family: Arial;
@@ -78,6 +82,7 @@
 /*This saves the posts*/
 .save-posts {
 	margin-top: 3%;
+	clear: both;
 }
 
 .posts {
@@ -123,6 +128,8 @@ span {
 	background-color: white;
 	border-radius: 10px;
 	text-align: center;
+	margin-right: 5%;
+	clear: both;
 }
 
 #back {
@@ -130,6 +137,8 @@ span {
 	background-color: white;
 	border-radius: 10px;
 	text-align: center;
+	margin-right: 5%;
+	clear: both;
 }
 
 #buttoms {
@@ -151,13 +160,10 @@ span {
 }
 
 .list{
-	font-size: 20px;
+	clear: both;
+	font-size: 10px;
 	color: red;
+	width: 20%;
 }
 
-.button-x {
-	width: 20px;
-	height: 20px;
-	background-color: red;
-	color: white;
-}
+
