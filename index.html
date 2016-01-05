@@ -4,12 +4,12 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
  -->
 <!DOCTYPE html>
 <!-- saved from url=(0039)http://getbootstrap.com/examples/blog/# -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en"><head><meta http-equiv="showlittle-Type" showlittle="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" showlittle="IE=edge">
+	<meta name="viewport" showlittle="width=device-width, initial-scale=1">
+	<meta name="description" showlittle="">
+	<meta name="author" showlittle="">
 	<link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
 	<title>Cognits Blog</title>
@@ -33,7 +33,6 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
   <body>
 
-	<!--<div class="posts"></div> -->
 	<div class="b">
 		<div class="cb left">Cognits Blog</div>
 		<div class="home">Home</div>
@@ -56,36 +55,76 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 		</div>
 
 		<div class="save-posts" id="show">
-			<div class="posts left-margin">Man must explore, and this is exploration at its greatest</div>
-			<div class="description-post left-margin">Problems look mighty small from 150 miles up</div>
-			<div class="by left-margin">Posted by 
-				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+			<div class="posts left-margin" id="post1"></div>
+			<div class="showlittle left-margin" id="showlittle1"></div>
+			<div class="content hide" id="content1"></div>
+			<div class="right right-margin hide" id="comment1">
+				<form>
+					<input id="input1" type="text" name="checkListItem1"/>
+				</form>
+				<button class="button" id="button1">Comment</button>
+				<button id="close1" class="button-x">X</button>
+				<br/>
+				<div class="list" id="list1"></div>
+			</div>
+			<div class="by left-margin">
+			<div class="date date1"></div></div>
 		</div>
 
 		<div class="save-posts" id="show2">
-			<div class="posts left-margin">HTML</div>
-			<div class="description-post left-margin">HyperText Markup Language</div>
-			<div class="by left-margin">Posted by 
-				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+			<div class="posts left-margin" id="post2"></div>
+			<div class="showlittle left-margin" id="showlittle2"></div>
+			<div class="content hide"id="content2"></div>
+			<div class="right right-margin hide" id="comment2">
+				<form>
+					<input id="input2" type="text" name="checkListItem2"/>
+				</form>
+				<button class="button" id="button2">Comment</button>
+				<button id="close2" class="button-x">X</button>
+				<br/>
+				<div class="list" id="list2"></div>
+			</div>
+			<div class="by left-margin">
+			<div class="date date1"></div></div>
 		</div>
 
 		<div class="save-posts hide" id="hide">
-			<div class="posts left-margin">CSS</div>
-			<div class="description-post left-margin">Cascading Style Sheets</div>
-			<div class="by left-margin">Posted by 
-				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+			<div class="posts left-margin" id="post3"></div>
+			<div class="showlittle left-margin" id="showlittle3"></div>
+			<div class="content hide" id="content3"></div>
+			<div class="right right-margin hide" id="comment3">
+				<form>
+					<input id="input3" type="text" name="checkListItem3"/>
+				</form>
+				<button class="button" id="button3">Comment</button>
+				<button id="close3" class="button-x">X</button>
+				<br/>
+				<div class="list" id="list3"></div>
+			</div>
+			<div class="by left-margin">
+			<div class="date date1"></div></div>
 		</div>
 
 		<div class="save-posts hide" id="hide2">
-			<div class="posts left-margin">Success Beyond Success</div>
-			<div class="description-post left-margin">Do not stay with what you achieve, always looking for more</div>
-			<div class="by left-margin">Posted by 
-				<a href="https://github.com/AngelinaRS" target="_blank"><span>Cognits student</span></a>, December 21, 2015</div>
+			<div class="posts left-margin" id="post4"></div>
+			<div class="showlittle left-margin" id="showlittle4"></div>
+			<div class="content hide" id="content4"></div>
+			<div class="right right-margin hide" id="comment4">
+				<form>
+					<input id="input4" type="text" name="checkListItem4"/>
+				</form>
+				<button class="button" id="button4">Comment</button>
+				<button id="close4" class="button-x">X</button>
+				<br/>
+				<div class="list" id="list4"></div>
+			</div>
+			<div class="by left-margin">
+			<div class="date date1"></div></div>
 		</div>
 
 		<div id="buttoms">
 			<button id="older" class="right right-margin">Older Posts → </button>
-			<button id="newer" class="left left-margin hide">Newer Posts → </button>
+			<button id="back" class="left left-margin hide">Back</button>
 		</div>
 
 		<div>
@@ -93,7 +132,6 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 		</div>
 
 	</div>
-
 
 		<!-- Bootstrap core JavaScript
 		================================================== -->

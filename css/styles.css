@@ -86,11 +86,21 @@
 	color: #0080FF;
 }
 
-.description-post {
+.showlittle {
 	font-size: 25px;
 	font-family: Arial;
 	font-weight: bold;
 	color: #0080FF;
+}
+
+.content {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	border: 2px solid black;
+	height: 5%;
+	width: 78%;
+	display: none;
 }
 
 .by {
@@ -115,7 +125,7 @@ span {
 	text-align: center;
 }
 
-#newer {
+#back {
 	color: #0080FF;
 	background-color: white;
 	border-radius: 10px;
@@ -130,6 +140,24 @@ span {
 /*This gives style to the copyright*/
 #copyright {
 	clear: both;
-	position: absolute;
 	bottom: 0 !important;
+}
+
+.button {
+	width: 80px;
+	height: 20px;
+	background-color: blue;
+	color: white;
+}
+
+.list{
+	font-size: 20px;
+	color: red;
+}
+
+.button-x {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
 }
