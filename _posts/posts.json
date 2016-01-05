@@ -2,8 +2,31 @@
   "posts": [
     {
       "title": "Estudiantes de @cognits aprenden a programar!",
-      "date": "2014,11,09",
-      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnisdis parturient montes, nascetur ridiculus mus. Donec quam felis, ultriciesnec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enimjusto, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum feliseu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementumsemper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitoreu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverraquis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorperultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus egetcondimentum rhoncus, sem quam semper libero, sit amet adipiscing sem nequesed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatisfaucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"
+      "showlittle": "We believe that any person, with the proper...",
+      "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
+      "date": "December 23, 2015",
+      "content": "We believe that any person, with the proper set of personal skills, can learn to code and perform well in this field. We firmly believe in the potential that lies within Guatemala to expand people’s talent in the area of software development. The problem lies in the lack of a practical and fast way to learn the programming skills demanded by technological companies in Guatemala, and the current solutions focused on this problem have lacked results. The way we help people get jobs in well known and regarded technological companies is by teaching them through a personalized method the skills demanded by these companies. Besides the technical subjects the students learn in Cognits, we complement these skills with the proper experiences for them to grow on their personal skills, and help them find the importance of this in the workplace and their life (self-learning, teamwork, leadership, integrity, communication, etc.)."
+    },
+    {
+      "title": "HTML",
+      "showlittle": "HyperText Markup Language",
+      "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
+      "date": "December 23, 2015",
+      "content": "HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
+    },
+    {
+      "title": "CSS",
+      "showlittle": "Cascading Style Sheets",
+      "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
+      "date": "December 22, 2015",
+      "content": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
+    },
+    {
+      "title": "JavaScript",
+      "showlittle": "JavaScript is a high-level",
+      "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
+      "date": "December 22, 2015",
+      "content": "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage or graphics facilities, relying for these upon the host environment in which it is embedded."
     }
   ]
 }
