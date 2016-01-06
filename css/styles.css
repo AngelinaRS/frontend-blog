@@ -46,7 +46,6 @@
 	margin-right: 20px;
 }
 
-
 /*this saves the general title*/
 .title {
 	height: 120px;
@@ -121,35 +120,9 @@ span {
 	display: none;
 }
 
-/*This gives style to the buttons*/
-
-#older {
-	color: #0080FF;
-	background-color: white;
-	border-radius: 10px;
-	text-align: center;
-	margin-right: 5%;
-	clear: both;
-}
-
-#back {
-	color: #0080FF;
-	background-color: white;
-	border-radius: 10px;
-	text-align: center;
-	margin-right: 5%;
-	clear: both;
-}
-
-#buttoms {
-	margin-top: 3%;
-	display: block;
-}
-
 /*This gives style to the copyright*/
 #copyright {
 	clear: both;
-	bottom: 0 !important;
 }
 
 .button {
@@ -165,5 +138,3 @@ span {
 	color: red;
 	width: 20%;
 }
-
-

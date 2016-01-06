@@ -4,25 +4,6 @@ $(document).ready(function () {
   $("#search").click(function(){
     $("#input").toggle("slow");
   });
-
-//this saves the buttons
-  $("#older").click(function(){
-    $("#show").hide("slow");
-    $("#show2").hide("slow");
-    $("#hide").removeClass("hide");
-    $("#hide2").removeClass("hide");
-    $("#older").addClass("hide");
-    $("#back").removeClass("hide");
-  });
-
-  $("#back").click(function(){
-    $("#show").show("slow");
-    $("#show2").show("slow");
-    $("#hide").addClass("hide");
-    $("#hide2").addClass("hide");
-    $("#back").addClass("hide");
-    $("#older").removeClass("hide");
-  });
 });
 
 //this will search the words
@@ -47,10 +28,34 @@ $(document).ready(function () {
 
   $(this).load("_posts/posts.json", function(data){
     var posts = JSON.parse(data);
+
+    /*order_date(posts["posts"]); //This is a function to order the posts by date
+
+    function order_date(myArray){
+      //This function runs through
+      var size = myArray.length;
+
+      for(var pass = 1; pass < size; pass++){ // outer loop
+        for( var up = 0; up < (size - pass); up++){ // inner loop
+          var down = up + 1;
+          if(myArray[up]['date'] < myArray[down]['date']){
+            swap(myArray, down, up);
+          }
+        }
+      }
+    }
+
+    function swap(myArray, indexOne, indexTwo) {
+      //This changes the order of the posts
+      var tmpVal = myArray[indexOne];
+      myArray[indexOne] = myArray[indexTwo];
+      myArray[indexTwo] = tmpVal;
+    }*/
+
     //First post
     $("#post1").html(posts['posts'][0]['title']);
     $("#showlittle1").html(posts['posts'][0]['showlittle']);
-    $(".date1").html(posts['posts'][0]['by'] + posts['posts'][0]['date']);
+    $("#date1").html(posts['posts'][0]['by'] + posts['posts'][0]['date']);
 
     $("#showlittle1").dblclick(function(){
       $("#content1").removeClass("hide");
@@ -58,14 +63,14 @@ $(document).ready(function () {
     });
 
     $("#button1").click(function(){
-      var toAdd = $('input[name=checkListItem1]').val();
-      $("#list1").append('<div class="item">' + toAdd + '</div>');
+      var saveComment = $('input[name=comment1]').val();
+      $("#list1").append('<div class="comment">' + saveComment + '</div>');
     });
 
     //Second post
     $("#post2").html(posts['posts'][1]['title']);
     $("#showlittle2").html(posts['posts'][1]['showlittle']);
-    $(".date1").html(posts['posts'][1]['by'] + posts['posts'][1]['date']);
+    $("#date2").html(posts['posts'][1]['by'] + posts['posts'][1]['date']);
 
     $("#showlittle2").dblclick(function(){
       $("#content2").removeClass("hide");
@@ -73,14 +78,14 @@ $(document).ready(function () {
     });
 
     $("#button2").click(function(){
-      var toAdd = $('input[name=checkListItem2]').val();
-      $("#list2").append('<div class="item">' + toAdd + '</div>');
+      var saveComment = $('input[name=comment2]').val();
+      $("#list2").append('<div class="comment">' + saveComment + '</div>');
     });
 
     //Third post
     $("#post3").html(posts['posts'][2]['title']);
     $("#showlittle3").html(posts['posts'][2]['showlittle']);
-    $(".date2").html(posts['posts'][2]['by'] + posts['posts'][2]['date']);
+    $("#date3").html(posts['posts'][2]['by'] + posts['posts'][2]['date']);
 
     $("#showlittle3").dblclick(function(){
       $("#content3").removeClass("hide");
@@ -88,14 +93,14 @@ $(document).ready(function () {
     });
 
     $("#button3").click(function(){
-      var toAdd = $('input[name=checkListItem3]').val();
-      $("#list3").append('<div class="item">' + toAdd + '</div>');
+      var saveComment = $('input[name=comment3]').val();
+      $("#list3").append('<div class="comment">' + saveComment + '</div>');
     });
 
     //Fourth post
     $("#post4").html(posts['posts'][3]['title']);
     $("#showlittle4").html(posts['posts'][3]['showlittle']);
-    $(".date2").html(posts['posts'][3]['by'] + posts['posts'][3]['date']);
+    $("#date4").html(posts['posts'][3]['by'] + posts['posts'][3]['date']);
 
     $("#showlittle4").dblclick(function(){
       $("#content4").removeClass("hide");
@@ -103,8 +108,8 @@ $(document).ready(function () {
     });
 
     $("#button4").click(function(){
-      var toAdd = $('input[name=checkListItem4]').val();
-      $("#list4").append('<div class="item">' + toAdd + '</div>');
+      var saveComment = $('input[name=comment4]').val();
+      $("#list4").append('<div class="comment">' + saveComment + '</div>');
     });
   });
 });
