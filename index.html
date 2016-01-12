@@ -2,8 +2,8 @@
 Usa este archivo para tu proyecto. No olvides hacer
 la estructura correta y guardar TODO tu CSS en el archivo styles.css
  -->
-<!DOCTYPE html>
 <!-- saved from url=(0039)http://getbootstrap.com/examples/blog/# -->
+<!DOCTYPE HTML SYSTEM>
 <html lang="en"><head><meta http-equiv="showlittle-Type" showlittle="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" showlittle="IE=edge">
@@ -31,97 +31,100 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
 </head>
 
-  <body>
+	<body>
 
-	<div class="b">
-		<div class="cb left">Cognits Blog</div>
-		<div class="home">Home</div>
-		<div class="right" id="search">Search</div>
+		<div class="b"><!--This saves all the header -->
+			<div class="cb left">Cognits Blog</div>
+			<div class="home">
+				<a href="file:///home/cognits2015/Desktop/Dulce%20Angelina%20Reyes%20Santos/frontend-blog/index.html">Home</a></div>
+			<div class="right" id="search">Search</div> <!--This is a button that searches the words -->
 
-		<div id="input" class="right">
-			<form class="right">
-				<input name="searcher" id="searcher" type="text" value="" placeholder="Search..." onclick="this.value='';"/>
-			</form>
+			<div id="input" class="right">
+				<form class="right">
+					<input name="searcher" id="searcher" type="text" value="" placeholder="Search..." onclick="this.value='';"/><!--This is the search bar-->
+				</form>
+			</div>
 		</div>
-	</div>
 
-	<!-- Here generate the posts -->
 
-	<div id="list"> <!--this will help to search -->
+	<!--<div id="list"> this will help to search -->
 		<div class="title">
-			<div class="titlecb left-margin">Cognits Blog</div>
-			<div class="description left-margin">The project to learn to use HTML, CSS and Javascript</div>
+			<div class="titlecb margin-left-20-porcent">Cognits Blog</div><!--This is the general tittle-->
+			<div class="description margin-left-20-porcent">The project to learn to use HTML, CSS and Javascript</div><!--This is a description of the blog-->
 		</div>
 
+
+		<!--This is the first post-->
 		<div class="save-posts">
-			<div class="posts left-margin" id="post1"></div>
-			<div class="showlittle left-margin" id="showlittle1"></div>
-			<div class="content hide" id="content1"></div>
-			<div class="right right-margin" id="comment1">
+			<div class="posts margin-left-20-porcent" id="post1"></div> <!--Title of the first post-->
+			<div class="showlittle margin-left-20-porcent" id="showlittle1"></div><!--A little description of the first post-->
+			<div class="content hide" id="content1"></div><!--This is the content of the first post-->
+			<div class="right margin-right-20-porcent" id="comment1"><!--This contains the comments area-->
 				<form>
-					<input id="input1" type="text" name="comment1" value="" onclick="this.value='';"/>
+					<input id="input1" type="text" name="comment1" value="" onclick="this.value='';"/> <!--Here write the comments-->
 				</form>
-				<button class="button" id="button1">Comment</button>
-				<br/>
-				<div class="list" id="list1"></div>
+				<button class="comment" id="button1">Comment</button> <!--This is a button for comments-->
+				<div class="list" id="list1"></div> <!--This saves the comments-->
 			</div>
-			<div class="by left-margin">
-			<div class="date" id="date1"></div></div>
+			<div class="by margin-left-20-porcent"> <!--Name of the author of the first post-->
+			<div id="date1"></div></div> <!--Date of the first post-->
 		</div>
 
+
+		<!--This is the second post-->
 		<div class="save-posts">
-			<div class="posts left-margin" id="post2"></div>
-			<div class="showlittle left-margin" id="showlittle2"></div>
-			<div class="content hide"id="content2"></div>
-			<div class="right right-margin" id="comment2">
+			<div class="posts margin-left-20-porcent" id="post2"></div><!--Title of the second post-->
+			<div class="showlittle margin-left-20-porcent" id="showlittle2"></div><!--A little description of the second post-->
+			<div class="content hide"id="content2"></div><!--This is the content of the second post-->
+			<div class="right margin-right-20-porcent" id="comment2"><!--This contains the comments area-->
 				<form>
-					<input id="input2" type="text" name="comment2" value="" onclick="this.value='';"/>
+					<input id="input2" type="text" name="comment2" value="" onclick="this.value='';"/><!--Here write the comments-->
 				</form>
-				<button class="button" id="button2">Comment</button>
-				<br/>
-				<div class="list" id="list2"></div>
+				<button class="comment" id="button2">Comment</button><!--This is the button for comments-->
+				<div class="list" id="list2"></div><!--This saves the comments-->
 			</div>
-			<div class="by left-margin">
-			<div class="date" id="date2"></div></div>
+			<div class="by margin-left-20-porcent"><!--Name of the author of the second post-->
+			<div id="date2"></div></div><!--Date of the second post-->
 		</div>
 
+
+		<!--This is the third post-->
 		<div class="save-posts">
-			<div class="posts left-margin" id="post3"></div>
-			<div class="showlittle left-margin" id="showlittle3"></div>
-			<div class="content hide" id="content3"></div>
-			<div class="right right-margin" id="comment3">
+			<div class="posts margin-left-20-porcent" id="post3"></div><!--Title of the third post-->
+			<div class="showlittle margin-left-20-porcent" id="showlittle3"></div><!--A little description of the third post-->
+			<div class="content hide" id="content3"></div><!--This is the content of the third post-->
+			<div class="right margin-right-20-porcent" id="comment3"><!--This contains the comments area-->
 				<form>
-					<input id="input3" type="text" name="comment3" value="" onclick="this.value='';"/>
+					<input id="input3" type="text" name="comment3" value="" onclick="this.value='';"/><!--Here write the comments-->
 				</form>
-				<button class="button" id="button3">Comment</button>
-				<br/>
-				<div class="list" id="list3"></div>
+				<button class="comment" id="button3">Comment</button><!--This is the button for comments-->
+				<div class="list" id="list3"></div><!--This saves the comments-->
 			</div>
-			<div class="by left-margin">
-			<div class="date" id="date3"></div></div>
+			<div class="by margin-left-20-porcent"><!--Name of the author of the third post-->
+			<div id="date3"></div></div><!--Date of the third post-->
 		</div>
 
+
+		<!--This is the fourth post-->
 		<div class="save-posts">
-			<div class="posts left-margin" id="post4"></div>
-			<div class="showlittle left-margin" id="showlittle4"></div>
-			<div class="content hide" id="content4"></div>
-			<div class="right right-margin" id="comment4">
+			<div class="posts margin-left-20-porcent" id="post4"></div><!--Title of the fourth post-->
+			<div class="showlittle margin-left-20-porcent" id="showlittle4"></div><!--A litle description ot the fourth post-->
+			<div class="content hide" id="content4"></div><!--This is the content of the fourth post-->
+			<div class="right margin-right-20-porcent" id="comment4"><!--This contains the comments area-->
 				<form>
-					<input id="input4" type="text" name="comment4" value="" onclick="this.value='';"/>
+					<input id="input4" type="text" name="comment4" value="" onclick="this.value='';"/><!--Here write the comments-->
 				</form>
-				<button class="button" id="button4">Comment</button>
-				<br/>
-				<div class="list" id="list4"></div>
+				<button class="comment" id="button4">Comment</button><!--This is the button for comments-->
+				<div class="list" id="list4"></div><!--This saves the comments-->
 			</div>
-			<div class="by left-margin">
-			<div class="date" id="date4"></div></div>
+			<div class="by margin-left-20-porcent"><!--Name of the author of the fourth post-->
+			<div id="date4"></div></div><!--Date of the fourth post-->
 		</div>
 
 		<div>
-			<div class="left-margin" id="copyright">Copyrigth © Your Website 2015</div>
+			<div class="margin-left-20-porcent" id="copyright">Copyrigth © Your Website 2015</div>
 		</div>
 
-	</div>
 
 		<!-- Bootstrap core JavaScript
 		================================================== -->
@@ -130,5 +133,5 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 		<script src="js/script.js"></script>
 		<script src="js/libs/bootstrap.js"></script>
 
-  </body>
+	</body>
 </html>

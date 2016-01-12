@@ -4,28 +4,32 @@
       "title": "Estudiantes de @cognits aprenden a programar!",
       "showlittle": "We believe that any person, with the proper...",
       "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
-      "date": "2015 November 19",
+      "date": "January 13, 2015",
+      "date_check": "2015 1 13",
       "content": "We believe that any person, with the proper set of personal skills, can learn to code and perform well in this field. We firmly believe in the potential that lies within Guatemala to expand people’s talent in the area of software development. The problem lies in the lack of a practical and fast way to learn the programming skills demanded by technological companies in Guatemala, and the current solutions focused on this problem have lacked results. The way we help people get jobs in well known and regarded technological companies is by teaching them through a personalized method the skills demanded by these companies. Besides the technical subjects the students learn in Cognits, we complement these skills with the proper experiences for them to grow on their personal skills, and help them find the importance of this in the workplace and their life (self-learning, teamwork, leadership, integrity, communication, etc.)."
     },
     {
       "title": "HTML",
       "showlittle": "HyperText Markup Language",
       "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
-      "date": "2015 December 23",
+      "date": "May 10, 2013",
+      "date_check": "2014 5 10",
       "content": "HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
     },
     {
       "title": "CSS",
       "showlittle": "Cascading Style Sheets",
       "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
-      "date": "2014 May 24",
+      "date": "October 26, 2015",
+      "date_check": "2015 10 26",
       "content": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
     },
     {
       "title": "JavaScript",
       "showlittle": "JavaScript is a high-level",
       "by": "Posted by <a href='https://github.com/AngelinaRS' target='_blank'><span>Cognits student, </span></a>",
-      "date": "2015 December 25",
+      "date": "December 25, 2015",
+      "date_check": "2015 12 25",
       "content": "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage or graphics facilities, relying for these upon the host environment in which it is embedded."
     }
   ]

@@ -13,9 +13,9 @@ $.expr[':'].icontains = function(obj, index, meta, stack){
   $(document).ready(function(){
     $('#searcher').keyup(function(){
       tosearch = $(this).val();
-      $('#list div div').removeClass('highlight');
+      $('div div div').removeClass('highlight');
         if(jQuery.trim(tosearch) != ''){
-          $("#list div div:icontains('" + tosearch + "')").addClass('highlight');
+          $("div div div:icontains('" + tosearch + "')").addClass('highlight');
         }
     });
   });
@@ -29,28 +29,19 @@ $(document).ready(function () {
   $(this).load("_posts/posts.json", function(data){
     var posts = JSON.parse(data);
 
-    /*order_date(posts["posts"]); //This is a function to order the posts by date
-
-    function order_date(myArray){
-      //This function runs through
-      var size = myArray.length;
-
-      for(var pass = 1; pass < size; pass++){ // outer loop
-        for( var up = 0; up < (size - pass); up++){ // inner loop
-          var down = up + 1;
-          if(myArray[up]['date'] < myArray[down]['date']){
-            swap(myArray, down, up);
+    posts["posts"].sort(sortByDate("date_check")); //This sorts the posts by date newest-oldest
+    
+    function sortByDate(property) {
+      return function (a, b) {
+          if (a[property] > b[property]) {
+              return -1;
+          } 
+          if (a[property] < b[property]) {
+               return 1;
           }
-        }
-      }
+          return 0;
+      };
     }
-
-    function swap(myArray, indexOne, indexTwo) {
-      //This changes the order of the posts
-      var tmpVal = myArray[indexOne];
-      myArray[indexOne] = myArray[indexTwo];
-      myArray[indexTwo] = tmpVal;
-    }*/
 
     //First post
     $("#post1").html(posts['posts'][0]['title']);
@@ -64,7 +55,7 @@ $(document).ready(function () {
 
     $("#button1").click(function(){
       var saveComment = $('input[name=comment1]').val();
-      $("#list1").append('<div class="comment">' + saveComment + '</div>');
+      $("#list1").append('<div>' + saveComment + '</div>');
     });
 
     //Second post
@@ -79,7 +70,7 @@ $(document).ready(function () {
 
     $("#button2").click(function(){
       var saveComment = $('input[name=comment2]').val();
-      $("#list2").append('<div class="comment">' + saveComment + '</div>');
+      $("#list2").append('<div>' + saveComment + '</div>');
     });
 
     //Third post
@@ -94,7 +85,7 @@ $(document).ready(function () {
 
     $("#button3").click(function(){
       var saveComment = $('input[name=comment3]').val();
-      $("#list3").append('<div class="comment">' + saveComment + '</div>');
+      $("#list3").append('<div>' + saveComment + '</div>');
     });
 
     //Fourth post
@@ -109,16 +100,16 @@ $(document).ready(function () {
 
     $("#button4").click(function(){
       var saveComment = $('input[name=comment4]').val();
-      $("#list4").append('<div class="comment">' + saveComment + '</div>');
+      $("#list4").append('<div>' + saveComment + '</div>');
     });
   });
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   $("body").click(function(){
     $(".content").hide("slow");
   });
-});
+});*/
 
 $(document).ready(function(){
   $(".showlittle").mouseenter(function(){

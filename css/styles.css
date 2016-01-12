@@ -25,8 +25,12 @@
 .home {
 	display: inline-block;
 	font-size: 15px;
-	color: gray;
 	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
 }
 
 #search {
@@ -46,6 +50,7 @@
 	margin-right: 20px;
 }
 
+
 /*this saves the general title*/
 .title {
 	height: 120px;
@@ -60,16 +65,12 @@
 	font-weight: bold;
 }
 
-.left-margin {
+.margin-left-20-porcent {
 	margin-left: 20%;
 }
 
-.right-margin {
+.margin-right-20-porcent {
 	margin-right: 20%;
-}
-
-.right-margin-5 {
-	margin-right: 5%;
 }
 
 .description {
@@ -102,7 +103,6 @@
 	margin-right: 20%;
 	text-align: center;
 	border: 2px solid black;
-	height: 5%;
 	width: 78%;
 	display: none;
 }
@@ -125,16 +125,16 @@ span {
 	clear: both;
 }
 
-.button {
+.comment {
 	width: 80px;
-	height: 20px;
+	height: 30px;
 	background-color: blue;
 	color: white;
+	text-align: center;
+	border-radius: 10px;
 }
 
 .list{
-	clear: both;
 	font-size: 10px;
 	color: red;
-	width: 20%;
 }
