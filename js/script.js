@@ -13,9 +13,9 @@ $.expr[':'].icontains = function(obj, index, meta, stack){
   $(document).ready(function(){
     $('#searcher').keyup(function(){
       tosearch = $(this).val();
-      $('div div div').removeClass('highlight');
+      $('div div').removeClass('highlight');
         if(jQuery.trim(tosearch) != ''){
-          $("div div div:icontains('" + tosearch + "')").addClass('highlight');
+          $("div div:icontains('" + tosearch + "')").addClass('highlight');
         }
     });
   });
